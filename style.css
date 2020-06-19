@@ -144,7 +144,7 @@ footer p {padding-top: 2rem;
 @media (max-width: 575.98px){
   .hamburger{padding-left: 65%;}
   .outline h2{font-size: 0.8rem;}
-  .outline p{font-size: 0.6rem;}
+  .outline p{font-size: 10.5px;}
   .description p{font-size: 1.2rem;}
   h1{font-size: 0.9rem;}
   footer p {font-size: 0.8rem;}
