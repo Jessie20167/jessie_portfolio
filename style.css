@@ -6,9 +6,9 @@
     position: relative;
     width: 100%;
   }
-.site{margin-left: 4%;
-    margin-right: 4%;
-    width: 92%;}
+.site{margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;}
 
 .picture{padding-left: 16px;
         margin-top: 3rem;}
@@ -63,7 +63,7 @@ h1{font-size: 1.1rem;
 header {display: none;
         }        
 footer p {padding-top: 2rem;
-    text-align: center;
+          text-align: center;
           font-weight: 400;}
 .overlay {
             height: 0%;
@@ -80,7 +80,7 @@ footer p {padding-top: 2rem;
           
 .overlay-content {
             position: relative;
-            top: 10%;
+            top: 5%;
             width: 100%;
             text-align: center;
             margin-top: 30px;
@@ -89,7 +89,7 @@ footer p {padding-top: 2rem;
 .overlay li a {
             padding: 12px;
             text-decoration: none;
-            font-size: 24px;
+            font-size: 22px;
             color: #818181;
             display: block;
             transition: 0.3s;
@@ -104,7 +104,7 @@ footer p {padding-top: 2rem;
             position: absolute;
             top: 20px;
             right: 45px;
-            font-size: 60px;
+            font-size: 40px;
             color: #818181;
          text-decoration: none;
           }
@@ -121,6 +121,15 @@ footer p {padding-top: 2rem;
 .avatar img{padding-top: 1rem;
 }
 .hamburger{padding-left: 55%;}
+.outline h2{font-family: 'Marcellus', serif;
+  font-size: 1rem;
+  color: #597188;}
+.outline p{font-family: 'Marcellus', serif;
+           font-size: 1rem;
+           color: #062044;}
+.avatar h3{padding-top: 1.9rem;
+    font-family: 'Marcellus', serif;
+  }
 @media (max-width: 767.98px){
     header{display: block;}
     .picture img{display: none;}
@@ -134,24 +143,21 @@ footer p {padding-top: 2rem;
 }
 @media (max-width: 575.98px){
   .hamburger{padding-left: 65%;}
+  .outline h2{font-size: 0.8rem;}
+  .outline p{font-size: 0.8rem;}
+  .description p{font-size: 1.2rem;}
+  h1{font-size: 0.9rem;}
+  footer p {font-size: 0.8rem;}
 }
 @media (max-width: 440px){
   .hamburger{padding-left:50%}
 }
 @media (max-width: 340px){
-  .hamburger{padding-left:30%}
+    .hamburger{padding-left:30%}
 }
-
-.outline h2{font-family: 'Marcellus', serif;
-  font-size: 1rem;
-  color: #707070;}
-  .outline p{font-family: 'Marcellus', serif;}
-  .avatar h3{padding-top: 1.9rem;
-    font-family: 'Marcellus', serif;
-  }
-.overlay-content .work-app a{font-size: 28px;}
+.overlay-content .work-app a{font-size: 26px;}
 .contact-app{font-family: 'Marcellus', serif;
-  font-size: 28px;
+  font-size: 26px;
   color: #818181;
   padding-top: 16px;}
 .overlay-content{padding-left: 0;}
