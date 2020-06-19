@@ -80,7 +80,7 @@ footer p {padding-top: 2rem;
           
 .overlay-content {
             position: relative;
-            top: 1%;
+            top: 2%;
             width: 100%;
             text-align: center;
             margin-top: 30px;
@@ -102,11 +102,11 @@ footer p {padding-top: 2rem;
           
 .overlay .closebtn {
             position: absolute;
-            top: 20px;
-            right: 45px;
-            font-size: 40px;
+            top: 8px;
+            right: 30px;
+            font-size: 50px;
             color: #818181;
-         text-decoration: none;
+           text-decoration: none;
           }
 .overlay .closebtn:hover, .overlay .closebtn:hover{color: #f1f1f1;}      
 @media screen and (max-height: 450px) {
