@@ -1,0 +1,157 @@
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+    float: none;
+    position: relative;
+    width: 100%;
+  }
+.site{margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;}
+
+.picture{padding-left: 16px;
+        margin-top: 3rem;}
+.navbar-nav{font-family: 'Marcellus', serif;
+        }
+.navbar-nav li a{
+                color: #597188;
+                font-size: 1rem;
+                text-decoration: none; 
+            }
+.navbar-nav li {padding-top: 0.8rem;
+  }       
+.navbar-nav .work a{
+    font-size: 1.1rem;
+    color: #062044;
+    text-decoration: none;}
+.contact{margin-top: 1rem;
+        color:#062044;
+        font-size: 1.1rem;}
+.description {
+            background-color: #F5F6F7;
+            font-family: 'Marcellus', serif;
+            font-size: 20pt;
+            text-align: center;
+        padding-right: 0rem;
+        padding-left: 0rem;
+          }        
+.description p {
+            color: #062044;
+            font-size: 1.5rem;
+            padding-top: 5rem;
+           padding-right: 12%;
+           padding-left: 12%;
+          }        
+h1{font-size: 1.1rem;
+    color: #597188;
+}
+.inner{overflow:hidden;}
+.inner img{transition: all 1s ease;}
+.inner:hover img{transform: scale(1.1)}
+.gallery:hover .inner {
+          filter: brightness(0.5);
+        }
+.gallery:hover .middle {
+          opacity: 1;
+        }   
+.row-spacer{margin-top: 0.5rem;}  
+.col-12, .col-sm-12, .col-md-9, .col-lg-9, .col-xl-9{padding-left: 0.25rem;
+          padding-right:0.25rem;}   
+.gallery{padding-left: 0.25rem;
+        padding-right:0.25rem;}
+header {display: none;
+        }        
+footer p {padding-top: 2rem;
+    text-align: center;
+          font-weight: 400;}
+.overlay {
+            height: 0%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-y: hidden;
+            transition: 0.5s;
+          }
+          
+.overlay-content {
+            position: relative;
+            top: 10%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+          
+.overlay li a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+            font-family: 'Marcellus', serif;
+          }
+          
+.overlay li a:hover, .overlay li a:focus {
+            color: #f1f1f1;
+          }
+          
+.overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+            color: #818181;
+         text-decoration: none;
+          }
+.overlay .closebtn:hover, .overlay .closebtn:hover{color: #f1f1f1;}      
+@media screen and (max-height: 450px) {
+            .overlay {overflow-y: auto;}
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+          }
+.avatar img{padding-top: 1rem;
+}
+.hamburger{padding-left: 55%;}
+@media (max-width: 767.98px){
+    header{display: block;}
+    .picture img{display: none;}
+    .navbar{display: none;}
+    .site{margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;}
+    .row-spacer{margin-top: 0;} 
+    .gallery{margin-top: 0.5rem;}
+    .picture{margin-top: 1rem;}
+}
+@media (max-width: 575.98px){
+  .hamburger{padding-left: 65%;}
+}
+@media (max-width: 440px){
+  .hamburger{padding-left:50%}
+}
+@media (max-width: 340px){
+  .hamburger{padding-left:30%}
+}
+
+.outline h2{font-family: 'Marcellus', serif;
+  font-size: 1rem;
+  color: #707070;}
+  .outline p{font-family: 'Marcellus', serif;}
+  .avatar h3{padding-top: 1.9rem;
+    font-family: 'Marcellus', serif;
+  }
+.overlay-content .work-app a{font-size: 28px;}
+.contact-app{font-family: 'Marcellus', serif;
+  font-size: 28px;
+  color: #818181;
+  padding-top: 16px;}
+.overlay-content{padding-left: 0;}
